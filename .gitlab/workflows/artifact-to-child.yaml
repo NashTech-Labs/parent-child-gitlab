@@ -1,0 +1,13 @@
+
+stages:
+  - build
+
+merge_request:
+  stage: build  
+  needs:
+    - pipeline: $PARENT_PIPELINE_ID
+      job: artifacts
+  script:
+    - echo $CI_PIPELINE_SOURCE
+    - echo $CI_COMMIT_TAG
+    - ls

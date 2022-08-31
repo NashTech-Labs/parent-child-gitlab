@@ -1,0 +1,9 @@
+stages:
+  - build
+
+app_build:
+  stage: build  
+  script:
+    - echo $CI_PIPELINE_SOURCE
+    - echo $CI_COMMIT_TAG
+    - ls

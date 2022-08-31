@@ -1,0 +1,12 @@
+## Details
+
+# Author:           Rahul Soni ( rahul.soni@knoldus.com )
+# Gitlab ID:        @Rahul-Soni28
+# Github ID:        @Rahul-Soni28
+# LinkedIn Profile: https://www.linkedin.com/in/rahul-soni-6592811b2/
+
+
+
+## This will include content of local file into this file.
+include:
+  - local: .gitlab/parent-pipe.yaml
